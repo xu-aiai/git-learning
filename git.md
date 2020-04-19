@@ -130,7 +130,7 @@ git clone <url>
 
 工作目录下的文件有两种状态，**已跟踪** 或 **未跟踪**。已跟踪的文件是指已经纳入了版本控制的文件，在上一次快照中有它们的记录。简而言之，已跟踪文件就是 Git 已经知道的文件。**已跟踪**的状态有三种，**未修改**，**已修改**，**已放入暂存区**。
 
-![状态转换图](D:\repository\git-learning\状态转换图.png)
+![状态转换图](D:\repository\git-learning\图片\状态转换图.png)
 
 **未修改**：已经纳入版本控制的文件，但未修改。
 
@@ -138,17 +138,17 @@ git clone <url>
 
 出现在 `Changes not staged for commit` 这行下面，说明已跟踪文件的内容发生了变化，但还没有放到暂存区。
 
-![添加到暂存区后修改状态](D:\repository\git-learning\添加到暂存区后修改状态.jpg)
+![添加到暂存区后修改状态](D:\repository\git-learning\图片\添加到暂存区后修改状态.jpg)
 
 **已放入暂存区**：①已经纳入版本控制的文件，发生了修改并且将修改后的文件加到了暂存区中。②还未纳入版本控制的文件，将其纳入版本控制。
 
 只要在 `Changes to be committed` 这行下面的，就说明是已暂存状态。
 
-![添加到暂存区状态](D:\repository\git-learning\添加到暂存区状态.jpg)
+![添加到暂存区状态](D:\repository\git-learning\图片\添加到暂存区状态.jpg)
 
-除上述状态之外都是**未跟踪**文件，它们既不存在于上次快照的记录中，也没有被放入暂存区。
+除上述状态之外都是**未跟踪**文件，它们既不存在于上次快照的记录中，也没有被放入暂存区。未跟踪文件会出现在`Untracked files` 这行下面。
 
-![未被追踪状态](D:\repository\git-learning\未被追踪状态.jpg)
+![未被追踪状态](D:\repository\git-learning\图片\未被追踪状态.jpg)
 
 **注意**
 
